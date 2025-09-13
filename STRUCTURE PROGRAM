@@ -1,0 +1,61 @@
+#include<stdio.h>
+
+struct student
+{
+int id;
+char name[30];
+long int sal;
+}e1,e2,e3;
+
+int main()
+{
+
+    printf("Enter the name:");
+    scanf("%s",e1.name);
+    printf("Enter your id:");
+    scanf("%d",&e1.id);
+    printf("Enter your salary:");
+    scanf("%d",&e1.sal);
+
+     printf("Enter the name:");
+    scanf("%s",e2.name);
+    printf("Enter your id:");
+    scanf("%d",&e2.id);
+    printf("Enter your salary:");
+    scanf("%d",&e2.sal);
+
+     printf("Enter the name:");
+    scanf("%s",e3.name);
+    printf("Enter your id:");
+    scanf("%d",&e3.id);
+    printf("Enter your salary:");
+    scanf("%d",&e3.sal);
+if(e1.sal>e2.sal)
+{
+    if(e1.sal>e2.sal)
+    {
+         printf("the employee 1 is got a highest salary");
+    }
+   printf("\n");
+}
+if(e2.sal<e1.sal)
+{
+    if(e2.sal<e3.sal)
+    {
+         printf("the employee 2 is got a highest salary");
+
+    }
+    printf("\n");
+}
+if(e1.sal>e2.sal)
+{
+    if(e1.sal>e2.sal)
+    {
+         printf("the employee 1 is got a highest salary");
+    }
+   printf("\n");
+
+}
+}
+
+
