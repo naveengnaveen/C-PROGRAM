@@ -1,0 +1,28 @@
+
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    char c;
+        printf("enter the operator");
+    scanf("%c \n",&c);
+    printf("enter first number:");
+    scanf("%d \n",&a);
+    printf("enter second number:");
+    scanf("%d \n",&b);
+
+    switch(c)
+    {
+    case'+':
+    printf("a+b= %d \n",a+b);
+    break;
+    case'-':
+    printf("a-b= %d \n",a-b);
+    break;
+    }
+
+    default:
+    {
+      printf("invalid");
+    }
+}
