@@ -1,0 +1,41 @@
+#include<stdio.h>
+void main()
+{
+    int a,b;
+    char op;
+    printf("enter operator:\n");
+    scanf("%c",&op);
+    printf("enter a:");
+    scanf("%d",&a);
+    printf("enter b:");
+    scanf("%d",&b);
+
+
+
+    if(op =='+')
+    {
+        printf("a+b= %d",a+b);
+
+    }
+    else if(op =='-')
+    {
+        printf("a-b= %d",a-b);
+
+    }
+    else if(op =='*')
+    {
+        printf("a*b= %d",a*b);
+    }
+    else if(op =='/')
+    {
+        printf("a/b= %d",a/b);
+    }
+    else if(op=='%')
+    {
+        printf("a%b= %d",a%b);
+    }
+    else
+    {
+        printf("invalid ");
+    }
+}
