@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+    int a=9;
+    int b=5;
+    int c=a+b;
+    int d=a*b;
+    int e=a-b;
+    int f=a/b;
+    int g=a%b;
+    printf("the addition value is:%d \n",c);
+    printf("the multiplication value is:%d \n",d);
+    printf("the subraction value is:%d \n",e);
+    printf("the division value is:%d \n",f);
+    printf("the module value is:%d \n",g);
+    int h=6;
+    h++;
+
+    printf("THE INCREMENT VALUE IS: %d",h);
+}
