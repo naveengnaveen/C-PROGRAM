@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+  int a,i;
+scanf("%d",&a);
+int num[a];
+for(i=0;i<a;i++);
+
+{
+    scanf("%d",&num[i]);
+}
+for (i=0;i%2==0;i++);
+{
+    printf("%d",num[i]);
+}
+
+}
