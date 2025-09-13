@@ -1,0 +1,24 @@
+#include<stdio.h>
+int numx(int a);
+int main()
+{
+int a;
+printf("enter the number:");
+scanf("%d ",&a);
+numx(a);
+return a;
+
+}
+int numx(int a)
+{
+
+if (a%2==0)
+     printf("this is an even number");
+ else
+
+     printf("this is an odd number");
+
+
+
+ }
+
