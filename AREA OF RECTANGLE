@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+
+    int l,b,Area;
+    printf("enter the height:");
+    scanf("%d",&l);
+    printf("enter the breath:");
+    scanf("%d",&b);
+    Area=l*b;
+    printf("the answer:%d",Area);
+    return 0;
+
+}
