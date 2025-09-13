@@ -1,0 +1,29 @@
+#include<stdio.h>
+int numx(int a);
+int main()
+{
+int a;
+printf("enter the number:");
+scanf("%d ",&a);
+numx(a);
+return a;
+
+}
+int numx(int a)
+{
+    num=0
+for(int i=2;i<a;i++)
+    (
+     if(a%i!=0)
+{
+    printf()
+}
+
+     )
+
+
+
+
+
+ }
+
