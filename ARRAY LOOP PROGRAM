@@ -1,0 +1,21 @@
+#include<stdio.h>
+void main()
+{
+    int a,i,sum=0,diff=0,avg;
+ scanf("%d \n ",&a);
+ int as[a];
+  for(i=0;i<a;i++)
+  {
+      scanf("%d \n",&as[i]);
+  }
+  for(i=0;i<a;i++)
+  {
+    sum=sum+as[i];
+    diff=diff-as[i];
+
+  }
+  printf("the total: %d \n",sum);
+  printf("the total: %d \n",diff);
+  avg=sum/6;
+  printf("the avg: %d \n",avg);
+}
