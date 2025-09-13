@@ -1,0 +1,48 @@
+#include<stdio.h>
+int main()
+{
+printf("                            BIO DATA        \n                    ");
+char a[100],b[100],c[100],d[100],e[100],f[100];
+int g,h,i,j,k;
+printf("NAME                :");
+scanf("%s /n",&a);
+printf("GENER               :");
+scanf("%s /n",&b);
+printf("DEPARTMENT          :");
+scanf("%s \n",&c);
+printf("NATIVE              :");
+scanf("%s \n",&d);
+printf("DISTRICT:");
+scanf("%s \n",&e);
+printf("STATE               :");
+scanf("%s \n",&f);
+printf("AGE                 :");
+scanf("%d \n",&g);
+printf("HEIGHT              :");
+scanf("%d \n",&h);
+printf("DATE OF BIRTH       :");
+scanf("%d \n",&i);
+printf("WEIGHT              :");
+scanf("%d \n",&j);
+printf("PHONE NUMBER        :");
+scanf("%d \n",&k);
+printf("                         Education Qualification       \n                                ");
+int q,w,s,r,t;
+printf("SSLC mark           :");
+scanf("%d \n",&q);
+printf("HSC first year mark :");
+scanf("%d \n",&w);
+printf("HSC second mark     :");
+scanf("%d \n",&s);
+printf("no of project       :");
+scanf("%d \n",&r);
+char u[100],p[100],o[100];
+printf("college name        :");
+scanf("%s \n",&u);
+printf("college e-mail      :");
+scanf("%s \n",&p);
+printf("skills              :");
+scanf("%s \n",&o);
+return 0;
+
+}
