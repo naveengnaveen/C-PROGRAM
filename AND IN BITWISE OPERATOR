@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    a=0;
+    b=8;
+    c=10;
+        printf("the value: %d \n",c&&b);
+        printf("the value: %d \n",a&&b);
+        printf("the value: %d \n",a&&a);
+        printf("the value: %d \n",b&&a);
+}
