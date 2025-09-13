@@ -1,0 +1,12 @@
+ #include<stdio.h>
+ void main()
+ {
+int a,b,c,d,e;
+    a=2;
+    b=3;
+    c=5;
+    d=8;
+    e=25;
+     printf("the value: %d \n",c+b*c>=e%a<=d==c-b*a>=d+b!=c);
+
+}
