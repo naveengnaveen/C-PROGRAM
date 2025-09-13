@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+ printf("                                                                logical operator                                                                ");
+int a,b;
+a=1;
+b=2;
+printf("the value: %d \n",a&&b);
+printf("the value: %d \n",a||b);
+printf("the value: %d \n",!a);
+printf("the value: %d \n",!b);
+}
